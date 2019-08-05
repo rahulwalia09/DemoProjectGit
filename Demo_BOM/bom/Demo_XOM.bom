@@ -1,0 +1,19 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Demo_BOM//Demo_XOM"
+property uuid "fbccec66-d77d-4057-81db-a7963a8c9310"
+package com.dev;
+
+
+public class DemoInput
+{
+    public int num;
+    public DemoInput();
+}
+
+public class DemoOutput
+{
+    public int answer;
+    public DemoOutput();
+}
+

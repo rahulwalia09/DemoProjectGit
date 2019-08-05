@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>VariableSet</name>
+  <uuid>734b2b06-85fb-45f4-9d1f-3bac4202d656</uuid>
+  <variables name="input" type="com.dev.DemoInput" initialValue="" verbalization="Input"/>
+  <variables name="output" type="com.dev.DemoOutput" initialValue="new com.dev.DemoOutput()" verbalization="Output"/>
+</ilog.rules.studio.model.base:VariableSet>

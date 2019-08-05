@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="Demo_DO" usingRuleflow="true" ruleflowName="RuleFlow" targetRuleProjectName="Demo_Rules">
+  <name>Demo_DO</name>
+  <uuid>a5d7fc9d-3eaf-4e54-a55e-b36342122aaa</uuid>
+  <referencedVariables variableName="input" variableSetName="VariableSet">
+    <variableSet href="../rules/VariableSet.var#734b2b06-85fb-45f4-9d1f-3bac4202d656"/>
+  </referencedVariables>
+  <referencedVariables variableName="output" variableSetName="VariableSet" direction="OUT">
+    <variableSet href="../rules/VariableSet.var#734b2b06-85fb-45f4-9d1f-3bac4202d656"/>
+  </referencedVariables>
+  <ruleflow href="../rules/RuleFlow.rfl#00b5a2c6-9b34-49cf-a415-4e8a0752c199"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="Demo_DO_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../Demo_Rules#82f27830-53b6-4e05-8fa1-e5f86d54f60c"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
